@@ -1,0 +1,28 @@
+body {
+    height: 90vh;
+    position: relative;
+}
+
+#main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#search-bar {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 30px;
+    transform: translateX(-25%);
+}
+
+#search-bar:focus {
+    border-color: black;
+    outline: none;
+}
